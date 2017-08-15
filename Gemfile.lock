@@ -1,0 +1,31 @@
+PATH
+  remote: /Users/Binod/projects/ruby-practise/trails
+  specs:
+    trails (0.3.0)
+      erubis (~> 2.6, >= 2.7.0)
+      multi_json (~> 1.12, >= 1.12.1)
+      rack (~> 2.0, >= 2.0.3)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.1.1)
+    erubis (2.7.0)
+    method_source (0.8.2)
+    multi_json (1.12.1)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    rack (2.0.3)
+    slop (3.6.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  pry
+  trails!
+
+BUNDLED WITH
+   1.15.1

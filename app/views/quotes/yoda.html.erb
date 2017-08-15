@@ -1,0 +1,16 @@
+<p>
+  There is nothing which falls in between. As Master said <%= message %>.
+</p>
+<p>
+  RUBY_VERSION = <%= RUBY_VERSION %>
+</p>
+<% path_info_arr = env['PATH_INFO'].split("/").reject!(&:empty?) %>
+<p>
+  Controller Name: <%= path_info_arr.first.capitalize+"Controller" %>
+</p>
+<p>
+  Controller Action: <%= path_info_arr.last %>
+</p>
+<p>
+  Controller Action: <%= start_time %>
+</p>
